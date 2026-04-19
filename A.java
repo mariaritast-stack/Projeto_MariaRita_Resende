@@ -8,6 +8,10 @@ public class A {
     public float getA2() { return A2; }
     public void setA2(float A2) { this.A2 = A2; }
 
+    public int getSoma(int a, int b) {
+        return a + b;
+    }
+    
     public void MA1() {
         System.out.println("Metodo MA1");
     }
@@ -17,9 +21,5 @@ public class A {
     }
     public void MA3() {
         System.out.println("Alteracao a classe A partir do clone");
-    }
-    //Método solicitado
-    public int getSoma(int a, int b) {
-        return a + b;
     }
 }
